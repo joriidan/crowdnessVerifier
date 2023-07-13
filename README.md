@@ -30,12 +30,18 @@ There are two datasets used for the succses of this project. The datasets are se
 
 ## Running this project 1. Add steps for running this project.
 
-  1)  Enter docker to train images:   `./docker/run.sh`
-  2)  Entering classification folder: `cd jetson-inference/python/training/classification`
-  3)  Run training line of code: `python3 train.py --model-dir=models/hospital data/hospital --epochs=3` #the epochs can be set to how many revolutions you want it       to run
-  5)  leaving docker: "Ctrl + D"
-  6)  The terminal should look like this: "nvidia@ubuntu..' where the code to test will be written
-  7)  line of code for testing images `imagenet imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt     $DATASET/test/crowded/800wm.jpg crowded.jpg` # in the following code the image being processed is located in the crowded folder within the test folder and is titled "800wm.jpg" 
+  1)  Enter docker to train images:
+      `./docker/run.sh`
+  3)  Entering classification folder:
+      `cd jetson-inference/python/training/classification`
+  5)  Run training line of code:
+      `python3 train.py --model-dir=models/hospital data/hospital --epochs=3`
+      #the epochs can be set to how many revolutions you want it to run
+  7)  leaving docker: "Ctrl + D"
+  8)  The terminal should look like this: "nvidia@ubuntu..' where the code to test will be written
+  9)  line of code for testing images
+      `imagenet imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/crowded/800wm.jpg crowded.jpg`
+      # in the following code the image being processed is located in the crowded folder within the test folder and is titled "800wm.jpg" 
 
 
 
