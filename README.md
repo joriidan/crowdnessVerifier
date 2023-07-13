@@ -41,11 +41,15 @@ There are two datasets used for the succses of this project. The datasets are se
   5)  Run training line of code:
      
       `python3 train.py --model-dir=models/hospital data/hospital --epochs=3`
-      
       #the epochs can be set to how many revolutions you want it to run
+      
   7)  leaving docker: "Ctrl + D"
   8)  The terminal should look like this: "nvidia@ubuntu..' where the code to test will be written
-  9)  Set the NET and DATASET using the following lines of code:
+  9)  Return back to the classification folder outside of the docker using the cd command to do so such as in the following:
+
+      `cd jetson-inference/python/training/classification`
+
+  11)  Set the NET and DATASET using the following lines of code:
 
       `NET=models/hospital`
       
