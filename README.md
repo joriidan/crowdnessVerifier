@@ -40,6 +40,7 @@ There are two datasets used for the succses of this project. The datasets are se
   7)  leaving docker: "Ctrl + D"
   8)  The terminal should look like this: "nvidia@ubuntu..' where the code to test will be written
   9)  line of code for testing images
+      
       `imagenet imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/crowded/800wm.jpg crowded.jpg`
       # in the following code the image being processed is located in the crowded folder within the test folder and is titled "800wm.jpg" 
 
