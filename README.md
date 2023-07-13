@@ -45,7 +45,11 @@ There are two datasets used for the succses of this project. The datasets are se
       #the epochs can be set to how many revolutions you want it to run
   7)  leaving docker: "Ctrl + D"
   8)  The terminal should look like this: "nvidia@ubuntu..' where the code to test will be written
-  9)  line of code for testing images -- in the following code the image being process for testing is located in the crowded folder within the test folder and is titled "800wm.jpg"
+  9)  Set the NET and DATASET using the following lines of code:
+
+     `NET=models/hospital`, `DATASET=data/hospital`
+      
+  12)  line of code for testing images -- in the following code the image being process for testing is located in the crowded folder within the test folder and is titled "800wm.jpg"
       
       `imagenet imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/crowded/800wm.jpg crowded.jpg`
       
