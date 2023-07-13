@@ -51,11 +51,11 @@ There are two datasets used for the succses of this project. The datasets are se
 
   11)  Set the NET using the following lines of code:
 
-      `NET=models/hospital`
+       `NET=models/hospital`
 
-  13)  Set the DATASET using the following lines of code:      
-      
-      `DATASET=data/hospital`
+  13)  Set the DATASET using the following lines of code:
+
+       `DATASET=data/hospital`
       
   12)  line of code for testing images -- in the following code the image being process for testing is located in the crowded folder within the test folder and is titled "800wm.jpg"
 
