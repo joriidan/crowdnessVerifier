@@ -17,7 +17,7 @@ Overpopulation in hospital Emergency Rooms has been overlooked as an issue in ho
  #### Clinical aid
  The verifier is suited to in hospitals, doctors office, urgent cares and clinics as an aid to communicate to staff the influx of patients waiting     and can be used to collect data on patient care focused improvement. In pandemics such as COVID-19, populated areas were more likely to expose people and allow     them to easily contract the virus. In many circumstances a crowd verifier would be able to communcaite the capacity of certain areas before people entering areas,  giving individuals an idea of waits and delays mobilely without the need of a doctor or regular maintance and manual updates. 
   
- #### Vision Impaired
+ #### Vision Impaired aid
  
 For this project 
 ![add image descrition here](direct image link here)
