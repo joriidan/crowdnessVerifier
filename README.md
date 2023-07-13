@@ -9,6 +9,7 @@
 Crowding has been classified as a widespread medical issue nationally in the United States. Patients that enter hospitals with injuries have been incorrectly assigned with emergency status and are placed in the ER (Emergency Room) not only preventing patients from getting the correct medical aid, but also creating overpopulation in ER waiting rooms. [^1] Crowding, delays, and diversions have increased to epidemic proportions. In the United States healthcare system, ER visits account for 11% of outpatient encounters, 28% of acute care visits, and 50% of hospital admissions. (Robert, 2012) In addition, the Emergency Room is the only medical treatment that all Americans have legal rights to regardless of their ability to pay. Moreover, making hospitals a hotspot for overpopulation at all times.
 
 #### Individuals affected
+
 Vast majority of people affected by Emergency Room overpopulation regulate in the "lower-income" communitees 
 
  ## Global Context  
