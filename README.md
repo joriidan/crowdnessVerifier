@@ -1,11 +1,10 @@
 # crowdnessVerifier
- Add short description of project here > 
- 
+
  In this project the jetson nano is using imagenet to asses and verify the crowdness of an area, benificial forcollecting data in medical and scientific enviroments as well as an aid for indivuals whom are visually impaired. 
 
  # Background
 
- Crowding has been classified as a widespread medical issue nationally in the United States. Patients that enter hospitals with injuries have been incorrectly assigned as a medical emergency and placed in the ER (Emergency Room) not only preventing patients from getting the correct medical aid or preventing other patients from getting proper care, but also creating overpopulation in ER waiting rooms. [[^1]
+ Crowding has been classified as a widespread medical issue nationally in the United States. Patients that enter hospitals with injuries have been incorrectly assigned as a medical emergency and placed in the ER (Emergency Room) not only preventing patients from getting the correct medical aid or preventing other patients from getting proper care, but also creating overpopulation in ER waiting rooms. [^1]
 
  # Global Context  
  
