@@ -24,15 +24,21 @@ For this project
 
 ## The Algorithm
 
-There are two datasets used for the succses of this project. The datasets are seperated by images that conotate as crowded and the other containing images that present as not_crowded or empty--
+There are two datasets used for the succses of this project. The datasets are seperated by images that conotate as crowded and the other containing images that present as not_crowded or empty. Firstly, the datasets go through the process of training, testing and val. The majority of the images go through training where the jetson nano is training to recognize and distiguise crowded and not_crowded images. The ratio between each folder is 8:1:1. During training, the data is ran for a set number of epochs. Epochs are how many times the data is being trained. As the epochs increase, the accuracy will most likely increase as well, however an increase of time is imminent. During this process the train and val accuracy can shift and go up or down. Once the process of training is complete the datasets then go through the process of testing. To test the images the docker is entered using the line provided below:
 
-1) Firstly, the datasets go through the process of training, testing and val. The majority of the images go through training where the jetson nano is training to recognize and distiguise crowded and not_crowded images. The ratio between each folder is 8:1:1. During training, the data is ran for a set number of epochs. Epochs are how many times the data is being trained. As the epochs increase, the accuracy will most likely increase as well, however an increase of time is imminent. During this process the train and val accuracy can shift and go up or down. 
-2) Once the process of training is complete the datasets then go through the process of testing. To test the images the docker is entered using the line provided below:
-
-      `./docker/run.sh`
 
 
 ## Running this project 1. Add steps for running this project.
+
+  1)  Enter docker to train images:   `./docker/run.sh`
+  2)  Entering classification folder: `cd jetson-inference/python/training/classification`
+  3)  Run training line of code: `python3 train.py --model-dir=models/hospital data/hospital --epochs=3` #the epochs can be set to how many revolutions you want it       to run
+  5)  leaving docker: "Ctrl + D"
+  6)  The terminal should look like this: "nvidia@ubuntu..' where the code to test will be written
+  7)  line of code for testing images `imagenet imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt     $DATASET/test/crowded/800wm.jpg crowded.jpg` # in the following code the image being processed is located in the crowded folder within the test folder and is titled "800wm.jpg" 
+
+
+
 
 
 
