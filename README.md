@@ -10,7 +10,7 @@ Crowding has been classified as a widespread medical issue nationally in the Uni
 
 #### Individuals affected
 
-Vast majority of people affected by Emergency Room overpopulation regulate in the "lower-income" communitees 
+Vast majority of people affected by Emergency Room overpopulation regulate in the "lower-income" communitees. A study conducted by The Center for Healthcare Research and Transformation determined that the people affected the indivuals whom are unisured are 3 times more likely to be in more aid than those insured in an Emergency Room. [^2]
 
  ## Global Context  
  
@@ -44,3 +44,4 @@ There are two datasets used for the succses of this project. The datasets are se
 
 
 [^1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540619/
+[^2]: https://chrt.org/publication/cover-michigan-survey-2011/
