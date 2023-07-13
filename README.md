@@ -29,7 +29,7 @@ There are two datasets used for the succses of this project. The datasets are se
 1) Firstly, the datasets go through the process of training, testing and val. The majority of the images go through training where the jetson nano is training to recognize and distiguise crowded and not_crowded images. The ratio between each folder is 8:1:1. During training, the data is ran for a set number of epochs. Epochs are how many times the data is being trained. As the epochs increase, the accuracy will most likely increase as well, however an increase of time is imminent. During this process the train and val accuracy can shift and go up or down. 
 2) Once the process of training is complete the datasets then go through the process of testing. To test the images the docker is entered using the line provided below:
 
-`./docker/run.sh`
+      `./docker/run.sh`
 
 
 ## Running this project 1. Add steps for running this project.
