@@ -49,7 +49,7 @@ There are two datasets used for the succses of this project. The datasets are se
 
       `cd jetson-inference/python/training/classification`
 
-  11)  Set the NET and DATASET using the following lines of code:
+  11)  Set the NET and DATASET using the following lines of code: 
 
       `NET=models/hospital`
       
