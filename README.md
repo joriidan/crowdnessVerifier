@@ -31,6 +31,7 @@ There are two datasets used for the succses of this project. The datasets are se
 ## Running this project 
 
 #### Training the images
+##### Datasets: 
 
 
   1)  Open SSH puTTy terminal by entering your serial number
