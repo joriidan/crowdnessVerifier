@@ -80,13 +80,5 @@ There are two datasets used for the succses of this project. The datasets are se
 
 
 
-
-3. Make sure to include any required libraries that need to be installed for your project to run.
-   -crowded dataset:
-   -Empty/not_crowded dataset: 
-
-[View a video explanation here](video link)
-
-
 [^1]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540619/
 [^2]: https://chrt.org/publication/cover-michigan-survey-2011/
