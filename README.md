@@ -1,7 +1,7 @@
 # CrowdnessVerifier
 
  In this project the jetson nano is using imagenet to asses and verify the crowdness of an area, benificial for collecting data in medical and scientific enviroments as well as an aid for indivuals whom are visually impaired. 
-
+..
  ## Background
 
  #### Hospital Emergency Room Overpopulation
