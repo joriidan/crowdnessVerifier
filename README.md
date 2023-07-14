@@ -74,10 +74,9 @@ There are two datasets used for the succses of this project. The datasets are se
 
        `DATASET=data/hospital`
       
-  12)  line of code for testing images -- in the following code the image being process for testing is located in the crowded folder within the test folder and is titled "800wm.jpg"
+  12)  line of code for testing images -- in the following code the image being process for testing is located in the empty folder within the test folder and is titled "348s.jpg"
 
-        `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/crowded/800wm.jpg crowded.jpg`
-      
+        `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/empty/348s.jpg empty.jpg`
 
 
 
