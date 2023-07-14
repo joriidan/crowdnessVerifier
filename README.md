@@ -32,33 +32,42 @@ There are two datasets used for the succses of this project. The datasets are se
 
 #### Training the images
 
-  1)  Enter docker to train images:
+
+  1)  Open SSH puTTy terminal by entering your serial number
+ 
+  2)  login and enter the following-- username: nvidia --password: nvidia
+  
+  3)  After enter the jetson-inference folder:
+
+      `cd jetson-inference`
+ 
+  5)  Then to enter docker to train images:
      
       `./docker/run.sh`
       
-  3)  Entering classification folder:
+  6)  Entering classification folder:
      
-      `cd jetson-inference/python/training/classification`
+      `cd python/training/classification`
       
-  5)  Run training line of code:
+  7)  Run training line of code:
      
       `python3 train.py --model-dir=models/hospital data/hospital --epochs=3`
       #the epochs can be set to how many revolutions you want it to run
       
-  7)  leaving docker: "Ctrl + D"
+  8)  leaving docker: "Ctrl + D"
 
 #### Testing the images
  
-  9)  The terminal should look like this: "nvidia@ubuntu..' where the code to test will be written
-  10)  Return back to the classification folder outside of the docker using the cd command to do so such as in the following:
+  8)  The terminal should look like this: "nvidia@ubuntu..' where the code to test will be written
+  9)  Return back to the classification folder outside of the docker using the cd command to do so such as in the following:
 
       `cd jetson-inference/python/training/classification`
 
-  11)  Set the NET using the following lines of code:
+  10)  Set the NET using the following lines of code:
 
        `NET=models/hospital`
 
-  13)  Set the DATASET using the following lines of code:
+  11)  Set the DATASET using the following lines of code:
 
        `DATASET=data/hospital`
       
@@ -66,8 +75,6 @@ There are two datasets used for the succses of this project. The datasets are se
 
         `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/crowded/800wm.jpg crowded.jpg`
       
-
-
 
 
 
