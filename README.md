@@ -20,9 +20,6 @@ The verifier is suited to in hospitals, doctors office, urgent cares and clinics
 #### Vision Impaired aid
 
 In addition to aiding data collecting in hospital waiting rooms, the crowd verifier is also able to detect the density of a crowd which could be very beneficial   for individuals that are vision impaired. 
- 
-For this project 
-![add image descrition here](direct image link here)
 
 ## The Algorithm
 
@@ -31,6 +28,7 @@ There are two datasets used for the succses of this project. The datasets are se
 
 
 ## Running this project 
+### Youtube link: https://www.youtube.com/watch?v=_ZvKYNqjuzA
 
 #### Training the images
 ##### Datasets: https://github.com/joriidan/crowdnessVerifier/tree/main/hospital
