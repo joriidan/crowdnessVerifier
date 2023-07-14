@@ -46,8 +46,8 @@ There are two datasets used for the succses of this project. The datasets are se
       #the epochs can be set to how many revolutions you want it to run
       
   7)  leaving docker: "Ctrl + D"
-     
-      #### Testing the images
+
+#### Testing the images
  
   9)  The terminal should look like this: "nvidia@ubuntu..' where the code to test will be written
   10)  Return back to the classification folder outside of the docker using the cd command to do so such as in the following:
